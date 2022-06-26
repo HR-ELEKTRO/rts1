@@ -29,8 +29,8 @@ void gnomeSort(int a[], size_t n)
 
 int main()
 {
-	extern void initialise_monitor_handles(void);
-	initialise_monitor_handles();
+    extern void initialise_monitor_handles(void);
+    initialise_monitor_handles();
 
     int a[] = {1, -2, 7, -4, 5};
     int b[] = {-4, -2, 1, 5, 7};

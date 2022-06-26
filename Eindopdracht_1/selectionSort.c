@@ -12,9 +12,9 @@ void swap(int *p1, int *p2)
 // This function must be implemented in LEGv7 Pinky assembly
 void selectionSort(int a[], size_t n)
 {
-	for (size_t j = 0; j != n - 1; j++)
-	{
-		size_t iMin = j;
+    for (size_t j = 0; j != n - 1; j++)
+    {
+        size_t iMin = j;
         for (size_t i = j + 1; i != n; i++)
         {
             if (a[i] < a[iMin])
@@ -26,15 +26,15 @@ void selectionSort(int a[], size_t n)
         {
             swap(&a[j], &a[iMin]);
         }
-	}
+    }
 }
 
 int main()
 {
-	extern void initialise_monitor_handles(void);
-	initialise_monitor_handles();
+    extern void initialise_monitor_handles(void);
+    initialise_monitor_handles();
 
-	int a[] = {1, -2, 7, -4, 5};
+    int a[] = {1, -2, 7, -4, 5};
     int b[] = {-4, -2, 1, 5, 7};
 
     selectionSort(a, sizeof(a)/sizeof(a[0]));

@@ -13,15 +13,15 @@ unsigned int power2(unsigned int p, unsigned int n, unsigned int m)
 
 unsigned int power(unsigned int n, unsigned int m)
 {
-	return power2(1, n, m);
+    return power2(1, n, m);
 }
 
 int main()
 {
-	extern void initialise_monitor_handles(void);
-	initialise_monitor_handles();
+    extern void initialise_monitor_handles(void);
+    initialise_monitor_handles();
 
-	unsigned int a = 7;
+    unsigned int a = 7;
     unsigned int b = 11;
 
     if (power(a, b) == 1977326743)
