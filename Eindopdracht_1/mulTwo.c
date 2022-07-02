@@ -26,7 +26,6 @@ unsigned int multiply(unsigned int a, unsigned int b)
         a = a << 1;
         b = b >> 1;
     }
-
     return m;
 }
 

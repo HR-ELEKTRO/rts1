@@ -18,7 +18,6 @@ unsigned int power(unsigned int n, unsigned int m)
         n = n * n;
         m = m >> 1;
     }
-
     return p * n;
 }
 

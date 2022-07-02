@@ -16,12 +16,10 @@ unsigned int multiply(unsigned int a, unsigned int b);
 unsigned int multiply(unsigned int a, unsigned int b)
 {
     unsigned int m = 0;
-
     for (unsigned int i = 0; i != a; i++)
     {
         m = m + b;
     }
-
     return m;
 }
 

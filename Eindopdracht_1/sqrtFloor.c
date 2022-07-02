@@ -18,7 +18,6 @@ unsigned int sqrtFloor(unsigned int n)
         p = p >> 1;
     }
     while (p != 0);
-
     return r;
 }
 
