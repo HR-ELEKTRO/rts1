@@ -129,7 +129,7 @@ fn test_last_illegal() {
     for _ in 0..10 {
         game.frame(1, 0).unwrap();
     }
-    assert_eq!(game.frame(1, 0), Err(Error::InvalidFrame));
+    assert_eq!(game.frame(1, 0), Err(Error::GameAlreadyEnded));
 }
 
 #[test]
