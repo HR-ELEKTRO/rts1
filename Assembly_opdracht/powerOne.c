@@ -2,6 +2,12 @@
 
 unsigned int power(unsigned int n, unsigned int m);
 
+// Placeholder for the multiply function you already implemented in LEGv7 Pinky assembly
+unsigned int multiply(unsigned int a, unsigned int b)
+{
+    return a * b;
+}
+
 // This function must be implemented in LEGv7 Pinky assembly
 unsigned int power(unsigned int n, unsigned int m)
 {
@@ -9,7 +15,7 @@ unsigned int power(unsigned int n, unsigned int m)
 
     for (unsigned int i = 0; i != m; i++)
     {
-        p = p * n;
+        p = multiply(p, n);
     }
     return p;
 }

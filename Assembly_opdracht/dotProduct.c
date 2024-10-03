@@ -2,13 +2,19 @@
 
 unsigned int dotProduct(unsigned int a[], unsigned int b[], size_t n);
 
+// Placeholder for the multiply function you already implemented in LEGv7 Pinky assembly
+unsigned int multiply(unsigned int a, unsigned int b)
+{
+    return a * b;
+}
+
 // This function must be implemented in LEGv7 Pinky assembly
 unsigned int dotProduct(unsigned int a[], unsigned int b[], size_t n)
 {
     unsigned int p = 0;
     for (size_t i = 0; i != n; i++)
     {
-        p = p + a[i] * b[i];
+        p = p + multiply(a[i], b[i]);
     }
     return p;
 }

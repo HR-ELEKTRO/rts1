@@ -2,6 +2,12 @@
 
 unsigned int sqrtFloor(unsigned int n);
 
+// Placeholder for the multiply function you already implemented in LEGv7 Pinky assembly
+unsigned int multiply(unsigned int a, unsigned int b)
+{
+    return a * b;
+}
+
 // This function must be implemented in LEGv7 Pinky assembly
 unsigned int sqrtFloor(unsigned int n)
 {
@@ -11,7 +17,7 @@ unsigned int sqrtFloor(unsigned int n)
     do
     {
         r = p | r;
-        if (r * r > n)
+        if (multiply(r, r) > n)
         {
             r = r & ~p;
         }

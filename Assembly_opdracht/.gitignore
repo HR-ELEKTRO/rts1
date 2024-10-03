@@ -1,2 +1,3 @@
 *.o
 *.exe
+dummy_initialise_monitor_handles.c
