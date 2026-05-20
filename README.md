@@ -1,5 +1,5 @@
-# RTS10 - Real-Time Systems #
+# RTS1 - Real-Time Systems
 
-Dit repository is bedoeld voor studenten en docenten van de opleiding Elektrotechniek van de Hogeschool Rotterdam en wordt gebruikt om studiemateriaal voor de cursus "RTS10 - Real-Time Systems" te verspreiden. 
+Deze repository is bedoeld voor studenten en docenten van de opleiding Elektrotechniek van de Hogeschool Rotterdam en wordt gebruikt om studiemateriaal voor de cursus "RTS1 - Real-Time Systems" te verspreiden. 
 
-Alle informatie is te vinden op de [Wiki](https://bitbucket.org/HR_ELEKTRO/rts10/wiki/).
+Alle informatie is te vinden op de [Wiki](https://github.com/HR-ELEKTRO/rts1/wiki).
