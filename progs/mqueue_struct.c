@@ -74,8 +74,8 @@ void *main_thread(void *arg)
     check( pthread_join(tc, NULL) );
 
     check( pthread_attr_destroy(&attr) );
-    check( mq_close(mqdes) );
-    check( mq_unlink("/structs") );
+    check_errno( mq_close(mqdes) );
+    check_errno( mq_unlink("/structs") );
 
     return NULL;
 }
